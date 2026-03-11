@@ -1,60 +1,77 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "cowork-starter-skills",
-  "version": "1.0.0",
-  "description": "Free starter skills for Claude CoWork. Solve real business problems with AI-powered workflows.",
   "owner": {
     "name": "Ads to AI",
     "email": "mike@mikerhodes.com.au"
   },
+  "metadata": {
+    "description": "Free starter skills for Claude CoWork. Solve real business problems with AI-powered workflows.",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "search-term-analyzer",
+      "source": "./plugins/search-term-analyzer",
       "description": "Analyzes Google Ads search terms. Finds wasted spend, generates negative keyword lists, and surfaces promotion candidates.",
-      "source": "./search-term-analyzer",
-      "author": { "name": "Ads to AI" }
+      "version": "1.0.0",
+      "author": { "name": "Ads to AI" },
+      "tags": ["google-ads", "search-terms", "negatives", "ppc"]
     },
     {
       "name": "csv-analyzer",
-      "description": "Analyzes any CSV file and generates an interactive HTML report with charts and insights. Auto-detects data types.",
-      "source": "./csv-analyzer",
-      "author": { "name": "Ads to AI" }
+      "source": "./plugins/csv-analyzer",
+      "description": "Analyzes any CSV and generates an interactive HTML report with charts and insights. Auto-detects data types.",
+      "version": "1.0.0",
+      "author": { "name": "Ads to AI" },
+      "tags": ["csv", "data", "charts", "reports"]
     },
     {
       "name": "post-meeting",
-      "description": "Processes meeting transcripts into action items, decisions, and a ready-to-send follow-up email.",
-      "source": "./post-meeting",
-      "author": { "name": "Ads to AI" }
+      "source": "./plugins/post-meeting",
+      "description": "Processes meeting transcripts into action items, decisions, and a follow-up email draft.",
+      "version": "1.0.0",
+      "author": { "name": "Ads to AI" },
+      "tags": ["meetings", "action-items", "follow-up"]
     },
     {
       "name": "inboxy",
-      "description": "Triages messages and emails by priority. Produces an interactive dashboard with draft replies and time estimates.",
-      "source": "./inboxy",
-      "author": { "name": "Ads to AI" }
+      "source": "./plugins/inboxy",
+      "description": "Triages messages and emails by priority. Produces an interactive dashboard with draft replies.",
+      "version": "1.0.0",
+      "author": { "name": "Ads to AI" },
+      "tags": ["email", "triage", "inbox", "productivity"]
     },
     {
       "name": "followups",
-      "description": "Scans contacts for overdue relationships, drafts personalised check-in messages, and builds an outreach calendar.",
-      "source": "./followups",
-      "author": { "name": "Ads to AI" }
+      "source": "./plugins/followups",
+      "description": "Scans contacts for overdue relationships, drafts check-in messages, and builds an outreach calendar.",
+      "version": "1.0.0",
+      "author": { "name": "Ads to AI" },
+      "tags": ["contacts", "crm", "follow-up"]
     },
     {
       "name": "draft-post",
+      "source": "./plugins/draft-post",
       "description": "Creates polished LinkedIn and X/Twitter posts from rough input with platform-specific formatting.",
-      "source": "./draft-post",
-      "author": { "name": "Ads to AI" }
+      "version": "1.0.0",
+      "author": { "name": "Ads to AI" },
+      "tags": ["content", "linkedin", "social-media"]
     },
     {
       "name": "post-evaluator",
-      "description": "Scores social media posts across 5 lenses (Clarity, Voice, Hook, Substance, Platform Fit) with improvement suggestions.",
-      "source": "./post-evaluator",
-      "author": { "name": "Ads to AI" }
+      "source": "./plugins/post-evaluator",
+      "description": "Scores social media posts across 5 lenses with improvement suggestions.",
+      "version": "1.0.0",
+      "author": { "name": "Ads to AI" },
+      "tags": ["content", "scoring", "quality"]
     },
     {
       "name": "competitor-scraper",
+      "source": "./plugins/competitor-scraper",
       "description": "Fetches competitor Google Ads via DataForSEO API and generates a competitive intelligence report.",
-      "source": "./competitor-scraper",
-      "author": { "name": "Ads to AI" }
+      "version": "1.0.0",
+      "author": { "name": "Ads to AI" },
+      "tags": ["google-ads", "competitors", "intelligence"]
     }
   ]
 }
