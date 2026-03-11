@@ -1,0 +1,1 @@
+{"name":"post-meeting","version":"1.0.0","description":"Processes a meeting transcript to extract action items, decisions, follow-ups, and generate a structured summary with a follow-up email draft. Use when the user provides a meeting transcript or asks t"}
