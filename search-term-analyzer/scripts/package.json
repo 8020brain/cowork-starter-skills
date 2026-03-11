@@ -1,0 +1,14 @@
+{
+  "name": "search-term-analyzer-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Search term analysis scripts - processes Google Ads CSV exports into compact JSON summaries for Claude analysis",
+  "scripts": {
+    "analyze": "node analyze-terms.js",
+    "ngrams": "node ngram-analysis.js",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
+}

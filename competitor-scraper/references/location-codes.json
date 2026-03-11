@@ -1,0 +1,137 @@
+{
+  "_comment": "DataForSEO location codes for Google Ads competitor scraping",
+  "_usage": "Use the 'code' value as the --location argument when running fetch-ads.js",
+  "_api_reference": "https://docs.dataforseo.com/v3/serp/google/ads_search/live/advanced/",
+
+  "common_locations": [
+    {
+      "country": "United States",
+      "code": 2840,
+      "iso": "US",
+      "note": "Default location for US-based campaigns"
+    },
+    {
+      "country": "Canada",
+      "code": 2124,
+      "iso": "CA"
+    },
+    {
+      "country": "United Kingdom",
+      "code": 2826,
+      "iso": "GB"
+    },
+    {
+      "country": "Australia",
+      "code": 2036,
+      "iso": "AU"
+    },
+    {
+      "country": "Germany",
+      "code": 2276,
+      "iso": "DE"
+    },
+    {
+      "country": "France",
+      "code": 2250,
+      "iso": "FR"
+    },
+    {
+      "country": "Spain",
+      "code": 2724,
+      "iso": "ES"
+    },
+    {
+      "country": "Italy",
+      "code": 2380,
+      "iso": "IT"
+    },
+    {
+      "country": "Netherlands",
+      "code": 2528,
+      "iso": "NL"
+    },
+    {
+      "country": "India",
+      "code": 2356,
+      "iso": "IN"
+    },
+    {
+      "country": "Mexico",
+      "code": 2484,
+      "iso": "MX"
+    },
+    {
+      "country": "Brazil",
+      "code": 2076,
+      "iso": "BR"
+    },
+    {
+      "country": "Japan",
+      "code": 2392,
+      "iso": "JP"
+    },
+    {
+      "country": "Singapore",
+      "code": 2702,
+      "iso": "SG"
+    },
+    {
+      "country": "New Zealand",
+      "code": 2554,
+      "iso": "NZ"
+    }
+  ],
+
+  "us_states": [
+    {
+      "state": "California",
+      "code": 1014221,
+      "note": "Useful for geo-targeted competitive analysis"
+    },
+    {
+      "state": "New York",
+      "code": 1023191
+    },
+    {
+      "state": "Texas",
+      "code": 1014254
+    },
+    {
+      "state": "Florida",
+      "code": 1015149
+    },
+    {
+      "state": "Illinois",
+      "code": 1014242
+    }
+  ],
+
+  "major_cities": [
+    {
+      "city": "New York, NY",
+      "code": 1023191
+    },
+    {
+      "city": "Los Angeles, CA",
+      "code": 1013962
+    },
+    {
+      "city": "Chicago, IL",
+      "code": 1014219
+    },
+    {
+      "city": "London, UK",
+      "code": 1006886
+    },
+    {
+      "city": "Toronto, ON",
+      "code": 1009158
+    }
+  ],
+
+  "_instructions": {
+    "how_to_use": "1. Find your target location in this file\n2. Use the 'code' value as the --location argument when running fetch-ads.js",
+    "example_usage": "node scripts/fetch-ads.js --domain=competitor.com --location=2840 --output=output/competitor.com.csv",
+    "need_more_locations": "Full location database: https://docs.dataforseo.com/v3/appendix/locations/"
+  }
+}

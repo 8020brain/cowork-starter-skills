@@ -1,0 +1,20 @@
+{
+  "tiers": {
+    "VIP": {
+      "cadence_days": 30,
+      "description": "Close relationships, key clients, partners"
+    },
+    "Important": {
+      "cadence_days": 60,
+      "description": "Active clients, collaborators"
+    },
+    "Regular": {
+      "cadence_days": 90,
+      "description": "Community members, broader network"
+    },
+    "Low": {
+      "cadence_days": null,
+      "description": "Everyone else - not actively tracked"
+    }
+  }
+}

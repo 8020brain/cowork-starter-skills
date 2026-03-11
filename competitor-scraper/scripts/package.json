@@ -1,0 +1,9 @@
+{
+  "name": "competitor-scraper-scripts",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer": "^24.0.0",
+    "@google/generative-ai": "^0.21.0"
+  }
+}

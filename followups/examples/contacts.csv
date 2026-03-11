@@ -1,0 +1,11 @@
+name,email,company,tier,last_contact_date,channel,notes,annual_value
+Sarah Chen,sarah@acmecorp.com,Acme Corp,VIP,2026-01-15,email,Key client - quarterly review coming up,120000
+James Wilson,james@wilsondesign.com,Wilson Design,Important,2025-12-20,linkedin,Referred two clients last year,35000
+Maria Garcia,maria@startupxyz.com,StartupXYZ,Regular,2025-11-01,email,Met at conference in November,8000
+Tom Anderson,tom@bigco.com,BigCo,VIP,2026-02-28,phone,Monthly strategy calls,95000
+Lisa Park,lisa@freelance.io,,Important,2026-01-05,email,Collaborator on the rebrand project,20000
+Alex Kim,alex@techstartup.com,TechStartup,Regular,2025-10-15,linkedin,Interested in consulting,12000
+David Brown,david@agency.com,The Agency,Low,2025-06-01,email,Casual connection,0
+Rachel Torres,rachel@nonprofit.org,Community Foundation,Important,,email,Never contacted - intro from James,25000
+Mike Johnson,mike@solodev.com,,Regular,2026-02-01,email,Community member - asked about templates,5000
+Nina Patel,nina@enterprise.co,Enterprise Co,VIP,2026-03-01,phone,Active project - weekly syncs,150000
